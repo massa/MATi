@@ -11,4 +11,14 @@
 
 @implementation Proposicao
 
+@synthesize type, number, year, desc;
+
+- (id)initWithType:(NSString*) t number:(NSString*) n year:(NSString*) y desc:(NSString*) d {
+	self.type = t;
+	self.number = n;
+	self.year = y;
+	self.desc = d;
+	return self;
+}
+
 @end

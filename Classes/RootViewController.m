@@ -7,18 +7,22 @@
 //
 
 #import "RootViewController.h"
+#import "MATiAppDelegate.h"
+#import "Proposicao.h"
 
 
 @implementation RootViewController
 
-/*
+	
 - (void)viewDidLoad {
     [super viewDidLoad];
+	
+	self.title = @"Proposições";
 
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
-*/
+
 
 /*
 - (void)viewWillAppear:(BOOL)animated {
